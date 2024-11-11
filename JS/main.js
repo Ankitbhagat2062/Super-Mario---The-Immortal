@@ -937,9 +937,7 @@ window.init = async ({ width, height, ...options }) => {
       download(await vm.saveProjectSb3(), document.title + '.sb3')
     })
 
-  canvas.addEventListener('mousedown', handleMouseDown)
-  canvas.addEventListener('touchstart', handleMouseDown, { passive: false })
-  
+
   const addSpriteInput = document.getElementById('add-sprite-file')
   addSpriteInput.addEventListener('change', async () => {
     addSpriteInput.disabled = true
@@ -959,7 +957,9 @@ window.init = async ({ width, height, ...options }) => {
     addSpriteInput.value = null
   })
 
- 
+   canvas.addEventListener('mousedown', handleMouseDown)
+  canvas.addEventListener('touchstart', handleMouseDown, { passive: false })
+  
 }
 
 const errorsTextarea = document.getElementById('errors')
