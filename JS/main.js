@@ -927,7 +927,12 @@ window.init = async ({ width, height, ...options }) => {
     .addEventListener('click', async () => {
       download(await vm.saveProjectSb3(), document.title + '.sb3')
     })
+<<<<<<< HEAD
    
+=======
+
+
+>>>>>>> b10ae2c16b4529461390ffda3d090ce0c9e5003e
   const addSpriteInput = document.getElementById('add-sprite-file')
   addSpriteInput.addEventListener('change', async () => {
     addSpriteInput.disabled = true
@@ -946,10 +951,17 @@ window.init = async ({ width, height, ...options }) => {
     addSpriteInput.disabled = false
     addSpriteInput.value = null
   })
+<<<<<<< HEAD
   canvas.addEventListener('mousedown', handleMouseDown)
   canvas.addEventListener('touchstart', handleMouseDown, { passive: false })
   
 
+=======
+
+   canvas.addEventListener('mousedown', handleMouseDown)
+  canvas.addEventListener('touchstart', handleMouseDown, { passive: false })
+  
+>>>>>>> b10ae2c16b4529461390ffda3d090ce0c9e5003e
 }
 
 const errorsTextarea = document.getElementById('errors')
