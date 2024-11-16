@@ -170,9 +170,6 @@ class CloudProvider {
   }
 }
 
-// Based on
-// https://github.com/LLK/scratch-gui/blob/7b658c60c7c04055e575601a861195fe6c9933f3/src/lib/video/camera.js
-// https://github.com/LLK/scratch-gui/blob/7b658c60c7c04055e575601a861195fe6c9933f3/src/lib/video/video-provider.js
 class VideoProvider {
   constructor (width, height) {
     this._dimensions = [width, height]
@@ -492,7 +489,6 @@ window.init = async ({ width, height, ...options }) => {
     }
   }
 
-  /* https://github.com/LLK/scratch-gui/blob/develop/src/containers/stage.jsx#L176-L300 */
   const getEventXY = e => {
     if (e.touches && e.touches[0]) {
       return { x: e.touches[0].clientX, y: e.touches[0].clientY }
@@ -513,7 +509,6 @@ window.init = async ({ width, height, ...options }) => {
     }
     mouseDownTimeoutId = null
   }
-  // https://github.com/LLK/scratch-gui/blob/develop/src/containers/stage.jsx#L337-L366
   function handleStartDrag () {
     if (dragId || !mouseDownPosition) return
     const drawableId = renderer.pick(mouseDownPosition.x, mouseDownPosition.y)
@@ -643,11 +638,7 @@ window.init = async ({ width, height, ...options }) => {
     })
   }
 
-  /**
-   * Maps e.key to e.code. For example, Shift -> ShiftRight. This is because the
-   * keyup event doesn't fire when you let go of one shift if the other shift
-   * key is still held down.
-   */
+ 
   const keyToCode = new Map()
   function postKey (event, isDown) {
     const key = !event.key || event.key === 'Dead' ? event.keyCode : event.key
@@ -936,6 +927,7 @@ window.init = async ({ width, height, ...options }) => {
     .addEventListener('click', async () => {
       download(await vm.saveProjectSb3(), document.title + '.sb3')
     })
+   
   const addSpriteInput = document.getElementById('add-sprite-file')
   addSpriteInput.addEventListener('change', async () => {
     addSpriteInput.disabled = true
@@ -954,9 +946,10 @@ window.init = async ({ width, height, ...options }) => {
     addSpriteInput.disabled = false
     addSpriteInput.value = null
   })
-
   canvas.addEventListener('mousedown', handleMouseDown)
   canvas.addEventListener('touchstart', handleMouseDown, { passive: false })
+  
+
 }
 
 const errorsTextarea = document.getElementById('errors')
