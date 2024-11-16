@@ -117,7 +117,9 @@ const initOptions = {
 		"6706e3a6a684aebe447816ddae0a1acc.png": "../Assets/Star.png",
 		"ebef75d35da4dd654c4487e96dc7cd24.png": "../Assets/EndBox.png",
 		"cc818bf3bcc008e35234d631321a0085.png": "../Assets/Black-Zag.png",
+		// "cc818bf3bcc008e35234d631321a0085.png": "https://raw.githubusercontent.com/Ankitbhagat2062/My-Portfolio/main/uploads/Black-Zag.png",
 		"b7f3251c4a481506ad38e18e1b18745d.png": "../Assets/Black.png",
+		// "b7f3251c4a481506ad38e18e1b18745d.png": "https://raw.githubusercontent.com/Ankitbhagat2062/My-Portfolio/main/uploads/Black.png",
 		"dd3425b2e0e99417a24aeb2bdd54db0f.png": "../Assets/grass8.png",
 		"11494fc0a8f3f100d873b5a14032e0c4.png": "../Assets/grass6.png",
 		"c42b987f4dcad4ae345f47202d78e024.png": "../Assets/grass10.png",
@@ -179,7 +181,9 @@ const initOptions = {
 		"7fb1161ea0d7654457785c5fb8cea64b.png": "../Assets/Smoke1.png",
 		"545a4eb2bf6902ea7749779a2ec5bde2.png": "../Assets/Smoke2.png",
 		"770f8e823d08dad0fa137732837fac54.png": "../Assets/Background-1-1.png",
+		// "770f8e823d08dad0fa137732837fac54.png": "https://raw.githubusercontent.com/Ankitbhagat2062/My-Portfolio/main/uploads/Background-1-1.png",
 		"c5a91ad56429a33a9a6ca2fd12abc727.png": "../Assets/Background-1-2.png",
+		// "c5a91ad56429a33a9a6ca2fd12abc727.png": "https://raw.githubusercontent.com/Ankitbhagat2062/My-Portfolio/main/uploads/Background-1-2.png",
 
 		"91884945a050997355f7708930c25c28.svg": "../SVG/s5.svg",
 
