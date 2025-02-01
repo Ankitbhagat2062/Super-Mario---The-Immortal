@@ -28,7 +28,7 @@ const initOptions = {
 
     "65db8c65daa5258029115b6a6ab5dad6.png": "https://raw.githubusercontent.com/Ankitbhagat2062/Assets/main/uploads/Blue.png",
 
-    "83a9787d4cb6f3b7632b4ddfebf74367.wav": "../Sounds/pop.wav",
+    "83a9787d4cb6f3b7632b4ddfebf74367.wav": "https://raw.githubusercontent.com/Ankitbhagat2062/Super-Mario-The-Immortal/main/Sounds/pop.wav",
 
     "10b845be092ad5fc80cf3d57b66c333b.png": "https://raw.githubusercontent.com/Ankitbhagat2062/Assets/main/uploads/MarioWalk1.png",
     "999fc96afab0a22cf3574ef2512e01e0.png": "https://raw.githubusercontent.com/Ankitbhagat2062/Assets/main/uploads/MarioWalk2.png",
@@ -57,8 +57,8 @@ const initOptions = {
     "fa709b5148b99a314511a193798f45ef.png": "https://raw.githubusercontent.com/Ankitbhagat2062/Assets/main/uploads/FireThrow2.png",
     "3e27df62174923ca9beee298ea577147.png": "https://raw.githubusercontent.com/Ankitbhagat2062/Assets/main/uploads/FireThrow1.png",
 
-    "8224656f5c31bcf69589d147e959d75c.wav": "../Sounds/Jump.wav",
-    "67bbc46a7b07061c77a9a936526886d9.wav": "../Sounds/Skid.wav",
+    "8224656f5c31bcf69589d147e959d75c.wav": "https://raw.githubusercontent.com/Ankitbhagat2062/Super-Mario-The-Immortal/main/Sounds/Jump.wav",
+    "67bbc46a7b07061c77a9a936526886d9.wav": "https://raw.githubusercontent.com/Ankitbhagat2062/Super-Mario-The-Immortal/main/Sounds/Skid.wav",
     "bfeb0195793eaad10db2e2b37be3fe5d.wav": "../Sounds/Coin.wav",
     "6af507775b1a2f0e6b5fc26c165f6e8d.wav": "../Sounds/Lose Life.wav",
     "358279ac7f6aaab6e829b13e11fd9b86.wav": "../Sounds/Power Up.wav",
@@ -181,7 +181,7 @@ const initOptions = {
 
     "e99766ff606d31bda81a03c182ff629a.png": "https://raw.githubusercontent.com/Ankitbhagat2062/Assets/main/uploads/Tile%20Scrolling%20Tutoria%20Thumbnaill%20p17%20Scratch.png",
 
-    "8563657bfc9b1eda64c480630f71e8e1.mp3": "../Sounds/Music L1.mp3",
+    "8563657bfc9b1eda64c480630f71e8e1.mp3": "https://raw.githubusercontent.com/Ankitbhagat2062/Super-Mario-The-Immortal/main/Sounds/Music L1.mp3",
     "691b92ae8a36c2411c4f202ff8473466.mp3": "../Sounds/block hit.mp3",
     "71941b267ba177f0a00f21b9834a8744.wav": "../Sounds/Bounce Off Enemy.wav",
     "175cee1ba2a7fceb3a76fe4ff2bfe4db.wav": "../Sounds/Flagpole.wav",
